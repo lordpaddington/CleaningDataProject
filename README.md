@@ -14,6 +14,8 @@ The script assumes that the source data is downloaded and unzipped to a local di
 
 The output file will be placed in the R working directory as **averages.csv**. To save it in a different file, change the *output_file* parameter.
 
+Expect the script to run for several minutes due to the size of the data to be loaded.
+
 ## How it works?
 
 The script does the following:
