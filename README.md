@@ -17,6 +17,7 @@ The output file will be placed in the R working directory as **averages.csv**. T
 ## How it works?
 
 The script does the following:
+
 1. Reads the *features.txt* file to get the variable names of the raw data.
 2. Calls a nested function two times, once for the *test* anc once for the *training* data. The nested function executes the following steps:
   1. Reads the specified raw data set and labels its columns according to the features file.
