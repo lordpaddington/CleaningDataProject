@@ -19,11 +19,10 @@ The output file will be placed in the R working directory as **averages.csv**. T
 The script does the following:
 1. Reads the *features.txt* file to get the variable names of the raw data.
 2. Calls a nested function two times, once for the *test* anc once for the *training* data. The nested function executes the following steps:
-   1. Reads the specified raw data set and labels its columns according to the features file.
-   2. Extracts only the variables with measurements of the means and standard deviations.
-   3. Reads the *activity* values and adds them as a column to the main data set.
-   4. Reads the *subject* values and adds them as a column to the main data set.
-
+  1. Reads the specified raw data set and labels its columns according to the features file.
+  2. Extracts only the variables with measurements of the means and standard deviations.
+  3. Reads the *activity* values and adds them as a column to the main data set.
+  4. Reads the *subject* values and adds them as a column to the main data set.
 3. Once both data set is loaded and pre-processed, the script combines them into a single data set.
 4. Labels the raw activity values with meaningful descriptions, based on the *activity_labels.txt* file.
 5. Creates an aggregated data set containing the averages of the means and standard deviations, grouped by subjects and activities.
