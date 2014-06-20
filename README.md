@@ -1,4 +1,4 @@
-# The "run_analysis.R" script.
+# The "run_analysis.R" script
 
 The purpose of this script is to clean and process the [smartphone accelerometer data set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) available from the UCI Machine Learning Repository. See the link for detailed description of the source data set.
 
@@ -23,6 +23,7 @@ The script does the following:
    2. Extracts only the variables with measurements of the means and standard deviations.
    3. Reads the *activity* values and adds them as a column to the main data set.
    4. Reads the *subject* values and adds them as a column to the main data set.
+
 3. Once both data set is loaded and pre-processed, the script combines them into a single data set.
 4. Labels the raw activity values with meaningful descriptions, based on the *activity_labels.txt* file.
 5. Creates an aggregated data set containing the averages of the means and standard deviations, grouped by subjects and activities.
